@@ -1,0 +1,3 @@
+/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug/CMakeFiles/ZAD_5_zmpo.dir

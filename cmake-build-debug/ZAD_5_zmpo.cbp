@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ZAD_5_zmpo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ZAD_5_zmpo">
+				<Option output="/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug/ZAD_5_zmpo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qivi/CLionProjects/ZAD_5_zmpo/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 ZAD_5_zmpo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ZAD_5_zmpo/fast">
+				<Option output="/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug/ZAD_5_zmpo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/qivi/CLionProjects/ZAD_5_zmpo/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 ZAD_5_zmpo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/qivi/CLionProjects/ZAD_5_zmpo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/CGeneticAlgorithm.cpp">
+			<Option target="ZAD_5_zmpo"/>
+		</Unit>
+		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/CGeneticAlgorithm.h">
+			<Option target="ZAD_5_zmpo"/>
+		</Unit>
+		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/CIndividual.cpp">
+			<Option target="ZAD_5_zmpo"/>
+		</Unit>
+		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/CIndividual.h">
+			<Option target="ZAD_5_zmpo"/>
+		</Unit>
+		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/CKnapsackProblem.cpp">
+			<Option target="ZAD_5_zmpo"/>
+		</Unit>
+		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/CKnapsackProblem.h">
+			<Option target="ZAD_5_zmpo"/>
+		</Unit>
+		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/Knapsack.cpp">
+			<Option target="ZAD_5_zmpo"/>
+		</Unit>
+		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/Knapsack.h">
+			<Option target="ZAD_5_zmpo"/>
+		</Unit>
+		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/ReadFile.cpp">
+			<Option target="ZAD_5_zmpo"/>
+		</Unit>
+		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/ReadFile.h">
+			<Option target="ZAD_5_zmpo"/>
+		</Unit>
+		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/main.cpp">
+			<Option target="ZAD_5_zmpo"/>
+		</Unit>
+		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/test">
+			<Option target="ZAD_5_zmpo"/>
+		</Unit>
+		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/test2">
+			<Option target="ZAD_5_zmpo"/>
+		</Unit>
+		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/values">
+			<Option target="ZAD_5_zmpo"/>
+		</Unit>
+		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
