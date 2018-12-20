@@ -19,4 +19,4 @@ add_executable(ZAD_5_zmpo
         ReadFile.h
         test
         test2
-        values)
+        values CMENU/CMenuItem.cpp CMENU/CMenuItem.h CMENU/CMenu.cpp CMENU/CMenu.h CMENU/CCommand.cpp CMENU/CCommand.h CMENU/CMenuCommand.cpp CMENU/CMenuCommand.h CMENU/KNPmenu.cpp CMENU/KNPmenu.h)

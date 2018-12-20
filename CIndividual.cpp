@@ -48,20 +48,7 @@ bool CIndividual<T>::brandom(double PROBA) {
 template <class T>
 CIndividual<T>::CIndividual(CIndividual &CLONE) {
 
-
-
-    this->SIZE = CLONE.SIZE;
-    this->MAX_LOAD = CLONE.MAX_LOAD;
-    this->CROSS_PROB = CLONE.CROSS_PROB;
-    this->MUT_PROB = CLONE.MUT_PROB;
-    this->KNAPSACK = CLONE.KNAPSACK;
-    this->FITNESS = CLONE.FITNESS;
-
-    this->GENOTYPE = new T[CLONE.SIZE];
-
-    for(int i = 0; i < CLONE.SIZE; i++){
-        this->GENOTYPE[i] = CLONE.GENOTYPE[i];
-    }
+    this->v_copy(CLONE);
 }
 
 template <class T>
@@ -163,7 +150,7 @@ void CIndividual<int>::operator++() {
     for(int i = 0; i < this->SIZE ; i++){
 
         if(brandom(this->MUT_PROB)){
-            this->GENOTYPE[i] = (int)(rand()%10);
+            this->GENOTYPE[i] = (int)(rand()%max_multi(i));
         }
     }
     this->c_fitness();
@@ -175,7 +162,7 @@ void CIndividual<double>::operator++() {
     for(int i = 0; i < this->SIZE ; i++){
 
         if(brandom(this->MUT_PROB)){
-            this->GENOTYPE[i] = (double)((rand()%10000)/1000.0);
+            this->GENOTYPE[i] = (double)((rand()%(this->max_multi(i)*1000))/1000.0);
         }
     }
     this->c_fitness();
@@ -189,19 +176,7 @@ bool CIndividual<T>::operator>(CIndividual &OBJECT) {
 template<class T>
 void CIndividual<T>::operator=(CIndividual<T> &OBJECT) {
 
-    this->SIZE = OBJECT.SIZE;
-    this->MAX_LOAD = OBJECT.MAX_LOAD;
-    this->CROSS_PROB = OBJECT.CROSS_PROB;
-    this->MUT_PROB = OBJECT.MUT_PROB;
-    this->KNAPSACK = OBJECT.KNAPSACK;
-    this->FITNESS = OBJECT.FITNESS;
-
-    this->GENOTYPE = new T[OBJECT.SIZE];
-
-
-    for(int i = 0; i < this->SIZE; i++){
-        this->GENOTYPE[i] = OBJECT.GENOTYPE[i];
-    }
+    this->v_copy(OBJECT);
 }
 
 template<>
@@ -230,7 +205,6 @@ void CIndividual<double>::create_genotype() {
     for(int i = 0; i < this->SIZE; i++){
 
         this->GENOTYPE[i] = (double)((rand()%(this->max_multi(i)*1000))/1000.0);
-        cout<<GENOTYPE[i]<<endl;
     }
 
 }
@@ -261,6 +235,24 @@ void CIndividual<T>::set_cross_place(int CP1, int CP2) {
 template<class T>
 int CIndividual<T>::max_multi(int POS) {
     return (int)(this->KNAPSACK->max_load()/this->KNAPSACK->weight_of_item(POS));
+}
+
+template<class T>
+void CIndividual<T>::v_copy(CIndividual &CLONE) {
+
+    this->SIZE = CLONE.SIZE;
+    this->MAX_LOAD = CLONE.MAX_LOAD;
+    this->CROSS_PROB = CLONE.CROSS_PROB;
+    this->MUT_PROB = CLONE.MUT_PROB;
+    this->KNAPSACK = CLONE.KNAPSACK;
+    this->FITNESS = CLONE.FITNESS;
+
+    this->GENOTYPE = new T[CLONE.SIZE];
+
+    for(int i = 0; i < CLONE.SIZE; i++){
+        this->GENOTYPE[i] = CLONE.GENOTYPE[i];
+    }
+
 }
 
 

@@ -25,7 +25,7 @@ void CKnapsackProblem<T>::configure() {
         cin>>POP_S;
     }
 
-    cout<<"Enter NUMBER OF ITERATIONS: ";
+    cout<<"Enter TIME(seconds): ";
     cin>>N_ITER;
 
     while(N_ITER < 2){
@@ -80,6 +80,13 @@ CKnapsackProblem<T>::~CKnapsackProblem() {
     delete CGA;
 }
 
+template<class T>
+void CKnapsackProblem<T>::run_command() {
+    this->configure();
+    this->start();
+}
+
+/*
 template <class T>
 void CKnapsackProblem<T>::fit_of_gen(int X, int Y) {
 
@@ -90,7 +97,7 @@ void CKnapsackProblem<T>::fit_of_gen(int X, int Y) {
         cout<<"CKnapsackProblem not ready"<<endl;
     }
 
-}
+} */
 
 
 template class CKnapsackProblem<bool>;

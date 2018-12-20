@@ -9,10 +9,12 @@ void CGeneticAlgorithm<T>::cr_fst_gen() {
 
         for(int i = 0; i < this->POP_SIZE; i++){
 
-                WHOLE__GENS(0).push_back(new CIndividual<T>(this->CROSS_PROBA,this->MUTATION_PROBA,this->KNAPSACK));
+                F_GEN.push_back(new CIndividual<T>(this->CROSS_PROBA,this->MUTATION_PROBA,this->KNAPSACK));
                // CInARRAY[i]->print_gen();
         }
-        WHOLE__GENS(0).push_back(this->find_cur_leader(0));
+        F_GEN.push_back(this->find_cur_leader(F_GEN));
+
+        this->LEADER = this->find_cur_leader(F_GEN);
 }
 
 template<class T>
@@ -28,8 +30,8 @@ void CGeneticAlgorithm<T>::next_gen(int LAST_GEN) {
         for(int POP_ITER = 0; POP_ITER < this->POP_SIZE /2; POP_ITER++){
 
             //cout<<CURRENT_GEN<<"<-"<<endl;
-            PARENT_A = this->parent(LAST_GEN);
-            PARENT_B = this->parent(LAST_GEN);
+            PARENT_A = this->parent(F_GEN);
+            PARENT_B = this->parent(F_GEN);
 
             C_PART1 = (rand()%(this->KNAPSACK->size()-2))+1;
             C_PART2 = (rand()%(this->KNAPSACK->size()-2))+1;
@@ -47,33 +49,37 @@ void CGeneticAlgorithm<T>::next_gen(int LAST_GEN) {
            CHILD_2 = *PARENT_B + *PARENT_A;
 
 
-           WHOLE__GENS(LAST_GEN+1).push_back(CHILD_1);
-           WHOLE__GENS(LAST_GEN+1).push_back(CHILD_2);
+           S_GEN.push_back(CHILD_1);
+           S_GEN.push_back(CHILD_2);
 
         }
 
 
         /**  MUTATION */
-        for(int i = 0; i < WHOLE__GENS(LAST_GEN+1).size(); i++){
-                ++(*WHOLE_GENS(LAST_GEN+1,i));
+        for(int i = 0; i < S_GEN.size(); i++){
+                ++(*SGEN(i));
         }
 
+        CIndividual<T> * N_LEADER = this->find_cur_leader(S_GEN);
 
+        S_GEN.push_back(N_LEADER);
 
-        WHOLE__GENS(LAST_GEN+1).push_back(this->find_cur_leader(LAST_GEN+1));
+        this->LEADER = this->get_leader(N_LEADER);
+
+        SWAP_GEN();
 }
 
 template<class T>
-CIndividual<T>* CGeneticAlgorithm<T>::find_cur_leader(int POS) {
+CIndividual<T>* CGeneticAlgorithm<T>::find_cur_leader(vector< CIndividual<T>* > GEN) {
 
-        CIndividual<T>* LEADER = WHOLE_GENS(POS,0);
+        CIndividual<T>* LEADER = GEN.at(0);
 
 
         for(int i = 0; i < this->POP_SIZE; i++){
 
-                if( *WHOLE_GENS(POS,i) > *LEADER ){
+                if( *GEN.at(i) > *LEADER ){
 
-                        LEADER = WHOLE_GENS(POS,i);
+                        LEADER = GEN.at(i);
                 }
         }
 
@@ -81,16 +87,16 @@ CIndividual<T>* CGeneticAlgorithm<T>::find_cur_leader(int POS) {
 }
 
 template<class T>
-CIndividual<T>* CGeneticAlgorithm<T>::parent(int POS) {
+CIndividual<T>* CGeneticAlgorithm<T>::parent(vector< CIndividual<T>* > GEN) {
 
         int CANDIDATE_A = rand()%(this->POP_SIZE);
         int CANDIDATE_B = rand()%(this->POP_SIZE);
 
-        if( WHOLE_GENS(POS,CANDIDATE_A) > WHOLE_GENS(POS,CANDIDATE_B)){
-                return WHOLE_GENS(POS,CANDIDATE_A);
+        if( (*GEN.at(CANDIDATE_A)) > (*GEN.at(CANDIDATE_B))){
+                return GEN.at(CANDIDATE_A);
         }
 
-        return WHOLE_GENS(POS,CANDIDATE_B);
+        return GEN.at(CANDIDATE_B);
 
 }
 
@@ -98,16 +104,7 @@ CIndividual<T>* CGeneticAlgorithm<T>::parent(int POS) {
 template<class T>
 CIndividual<T>* CGeneticAlgorithm<T>::wh_gen_leader() {
 
-        CIndividual<T>* WH_LEADER = WHOLE_GENS(0,this->POP_SIZE);
-
-        for(int POP_ITER = 0; POP_ITER < this->END_GENERATION; POP_ITER++){
-
-                if(*WHOLE__GENS(POP_ITER).back() > *WH_LEADER){
-                        WH_LEADER = WHOLE__GENS(POP_ITER).back();
-                }
-        }
-
-        return WH_LEADER;
+        return this->LEADER;
 }
 
 template<class T>
@@ -122,6 +119,8 @@ void CGeneticAlgorithm<T>::run_ga() {
         CURRENT_TIME = time(NULL);
         END_TIME = CURRENT_TIME + this->END_TIME;
 
+        CIndividual<T>* LEADER;
+
 
         this->cr_fst_gen();
 
@@ -131,9 +130,13 @@ void CGeneticAlgorithm<T>::run_ga() {
 
                 this->next_gen(END_GENERATION-1);
 
+
                 END_GENERATION++;
                 CURRENT_TIME = time(NULL);
+
         }
+
+
 
         /*  OLD ONE
         for(int i = 1; i < this->END_GENERATION; i++){
@@ -143,11 +146,11 @@ void CGeneticAlgorithm<T>::run_ga() {
 
         this->DONE = true;
 
-        this->print_wh_gen();
 
         cout<<"Leader: ";
         this->wh_gen_leader()->print_gen();
         cout<<endl;
+        cout<<"no. of ITERATIONS: "<<END_GENERATION<<endl;
 
 
 }
@@ -166,64 +169,37 @@ CGeneticAlgorithm<T>::CGeneticAlgorithm(int POP_SIZE, int END_TIME, double CROSS
         if(this->POP_SIZE%2 == 1)
                 this->POP_SIZE++;
 
-        for(int i = 0; i < this->END_GENERATION; i++)
-                WHOLE_GENS.push_back( VCIND() );
 
 }
 
 template<class T>
 CGeneticAlgorithm<T>::~CGeneticAlgorithm() {
 
-        for(int i = 0; i < this->WHOLE_GENS.size(); i++){
-                for(int j = 0; j < WHOLE__GENS(i).size(); j++){
-                        delete WHOLE_GENS(i,j);
-                }
-                WHOLE__GENS(i).clear();
+        for(int i = 0; i < F_GEN.size(); i++){
+                delete FGEN(i);
+                //delete SGEN(i);
         }
-        WHOLE_GENS.clear();
+
+        F_GEN.clear();
+        S_GEN.clear();
+
         //delete KNAPSACK;
 }
 
-template<class T>
-void CGeneticAlgorithm<T>::print_wh_gen() {
-
-        if(!this->DONE){
-                cout<<"AG is not done yet!"<<endl;
-                return;
-        }
-
-
-        for(int i = 0; i < this->END_GENERATION; i++){
-
-                cout<<"GEN "<<i<<" : ";
-                this->print_gen(i);
-        }
-
-
-}
 
 template<class T>
-void CGeneticAlgorithm<T>::print_gen(int POS) {
+void CGeneticAlgorithm<T>::print_gen(vector< CIndividual<T>* > GEN) {
 
 
         for (int i = 0; i < this->POP_SIZE; i++) {
-                WHOLE_GENS(POS,i)->print_gen();
+                GEN.at(i)->print_gen();
                 cout << " ";
         }
         cout << endl;
 }
 
-template<class T>
-void CGeneticAlgorithm<T>::print_leaders() {
 
-        cout<<endl<<endl<<"print leaders"<<endl;
-
-        for(int i = 0; i < this->WHOLE_GENS.size(); i++){
-                WHOLE_GENS(i,this->POP_SIZE)->print_gen();
-        }
-
-}
-
+        /*
 template <class T>
 void CGeneticAlgorithm<T>::fit_of_gen(int X, int Y) {
 
@@ -235,6 +211,15 @@ void CGeneticAlgorithm<T>::fit_of_gen(int X, int Y) {
                 cout<<"WRONG (X,Y)"<<endl;
         }
 
+} */
+
+template<class T>
+CIndividual<T> *CGeneticAlgorithm<T>::get_leader(CIndividual<T>* N_LEADER) {
+
+        if(*N_LEADER > *this->LEADER){
+                return N_LEADER;
+        }
+        return this->LEADER;
 }
 
 

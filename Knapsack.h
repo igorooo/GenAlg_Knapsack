@@ -8,11 +8,12 @@
 #include <iostream>
 #include <vector>
 
+
 #define ARR_LEN(ar) (sizeof(ar) / sizeof(*ar))
 
 using namespace std;
 
-class Knapsack {
+class Knapsack{
 
 private:
     int N_ITEMS;

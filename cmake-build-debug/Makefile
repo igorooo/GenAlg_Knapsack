@@ -204,6 +204,141 @@ CKnapsackProblem.cpp.s:
 	$(MAKE) -f CMakeFiles/ZAD_5_zmpo.dir/build.make CMakeFiles/ZAD_5_zmpo.dir/CKnapsackProblem.cpp.s
 .PHONY : CKnapsackProblem.cpp.s
 
+CMENU/CCommand.o: CMENU/CCommand.cpp.o
+
+.PHONY : CMENU/CCommand.o
+
+# target to build an object file
+CMENU/CCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/ZAD_5_zmpo.dir/build.make CMakeFiles/ZAD_5_zmpo.dir/CMENU/CCommand.cpp.o
+.PHONY : CMENU/CCommand.cpp.o
+
+CMENU/CCommand.i: CMENU/CCommand.cpp.i
+
+.PHONY : CMENU/CCommand.i
+
+# target to preprocess a source file
+CMENU/CCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/ZAD_5_zmpo.dir/build.make CMakeFiles/ZAD_5_zmpo.dir/CMENU/CCommand.cpp.i
+.PHONY : CMENU/CCommand.cpp.i
+
+CMENU/CCommand.s: CMENU/CCommand.cpp.s
+
+.PHONY : CMENU/CCommand.s
+
+# target to generate assembly for a file
+CMENU/CCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/ZAD_5_zmpo.dir/build.make CMakeFiles/ZAD_5_zmpo.dir/CMENU/CCommand.cpp.s
+.PHONY : CMENU/CCommand.cpp.s
+
+CMENU/CMenu.o: CMENU/CMenu.cpp.o
+
+.PHONY : CMENU/CMenu.o
+
+# target to build an object file
+CMENU/CMenu.cpp.o:
+	$(MAKE) -f CMakeFiles/ZAD_5_zmpo.dir/build.make CMakeFiles/ZAD_5_zmpo.dir/CMENU/CMenu.cpp.o
+.PHONY : CMENU/CMenu.cpp.o
+
+CMENU/CMenu.i: CMENU/CMenu.cpp.i
+
+.PHONY : CMENU/CMenu.i
+
+# target to preprocess a source file
+CMENU/CMenu.cpp.i:
+	$(MAKE) -f CMakeFiles/ZAD_5_zmpo.dir/build.make CMakeFiles/ZAD_5_zmpo.dir/CMENU/CMenu.cpp.i
+.PHONY : CMENU/CMenu.cpp.i
+
+CMENU/CMenu.s: CMENU/CMenu.cpp.s
+
+.PHONY : CMENU/CMenu.s
+
+# target to generate assembly for a file
+CMENU/CMenu.cpp.s:
+	$(MAKE) -f CMakeFiles/ZAD_5_zmpo.dir/build.make CMakeFiles/ZAD_5_zmpo.dir/CMENU/CMenu.cpp.s
+.PHONY : CMENU/CMenu.cpp.s
+
+CMENU/CMenuCommand.o: CMENU/CMenuCommand.cpp.o
+
+.PHONY : CMENU/CMenuCommand.o
+
+# target to build an object file
+CMENU/CMenuCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/ZAD_5_zmpo.dir/build.make CMakeFiles/ZAD_5_zmpo.dir/CMENU/CMenuCommand.cpp.o
+.PHONY : CMENU/CMenuCommand.cpp.o
+
+CMENU/CMenuCommand.i: CMENU/CMenuCommand.cpp.i
+
+.PHONY : CMENU/CMenuCommand.i
+
+# target to preprocess a source file
+CMENU/CMenuCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/ZAD_5_zmpo.dir/build.make CMakeFiles/ZAD_5_zmpo.dir/CMENU/CMenuCommand.cpp.i
+.PHONY : CMENU/CMenuCommand.cpp.i
+
+CMENU/CMenuCommand.s: CMENU/CMenuCommand.cpp.s
+
+.PHONY : CMENU/CMenuCommand.s
+
+# target to generate assembly for a file
+CMENU/CMenuCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/ZAD_5_zmpo.dir/build.make CMakeFiles/ZAD_5_zmpo.dir/CMENU/CMenuCommand.cpp.s
+.PHONY : CMENU/CMenuCommand.cpp.s
+
+CMENU/CMenuItem.o: CMENU/CMenuItem.cpp.o
+
+.PHONY : CMENU/CMenuItem.o
+
+# target to build an object file
+CMENU/CMenuItem.cpp.o:
+	$(MAKE) -f CMakeFiles/ZAD_5_zmpo.dir/build.make CMakeFiles/ZAD_5_zmpo.dir/CMENU/CMenuItem.cpp.o
+.PHONY : CMENU/CMenuItem.cpp.o
+
+CMENU/CMenuItem.i: CMENU/CMenuItem.cpp.i
+
+.PHONY : CMENU/CMenuItem.i
+
+# target to preprocess a source file
+CMENU/CMenuItem.cpp.i:
+	$(MAKE) -f CMakeFiles/ZAD_5_zmpo.dir/build.make CMakeFiles/ZAD_5_zmpo.dir/CMENU/CMenuItem.cpp.i
+.PHONY : CMENU/CMenuItem.cpp.i
+
+CMENU/CMenuItem.s: CMENU/CMenuItem.cpp.s
+
+.PHONY : CMENU/CMenuItem.s
+
+# target to generate assembly for a file
+CMENU/CMenuItem.cpp.s:
+	$(MAKE) -f CMakeFiles/ZAD_5_zmpo.dir/build.make CMakeFiles/ZAD_5_zmpo.dir/CMENU/CMenuItem.cpp.s
+.PHONY : CMENU/CMenuItem.cpp.s
+
+CMENU/KNPmenu.o: CMENU/KNPmenu.cpp.o
+
+.PHONY : CMENU/KNPmenu.o
+
+# target to build an object file
+CMENU/KNPmenu.cpp.o:
+	$(MAKE) -f CMakeFiles/ZAD_5_zmpo.dir/build.make CMakeFiles/ZAD_5_zmpo.dir/CMENU/KNPmenu.cpp.o
+.PHONY : CMENU/KNPmenu.cpp.o
+
+CMENU/KNPmenu.i: CMENU/KNPmenu.cpp.i
+
+.PHONY : CMENU/KNPmenu.i
+
+# target to preprocess a source file
+CMENU/KNPmenu.cpp.i:
+	$(MAKE) -f CMakeFiles/ZAD_5_zmpo.dir/build.make CMakeFiles/ZAD_5_zmpo.dir/CMENU/KNPmenu.cpp.i
+.PHONY : CMENU/KNPmenu.cpp.i
+
+CMENU/KNPmenu.s: CMENU/KNPmenu.cpp.s
+
+.PHONY : CMENU/KNPmenu.s
+
+# target to generate assembly for a file
+CMENU/KNPmenu.cpp.s:
+	$(MAKE) -f CMakeFiles/ZAD_5_zmpo.dir/build.make CMakeFiles/ZAD_5_zmpo.dir/CMENU/KNPmenu.cpp.s
+.PHONY : CMENU/KNPmenu.cpp.s
+
 Knapsack.o: Knapsack.cpp.o
 
 .PHONY : Knapsack.o
@@ -303,6 +438,21 @@ help:
 	@echo "... CKnapsackProblem.o"
 	@echo "... CKnapsackProblem.i"
 	@echo "... CKnapsackProblem.s"
+	@echo "... CMENU/CCommand.o"
+	@echo "... CMENU/CCommand.i"
+	@echo "... CMENU/CCommand.s"
+	@echo "... CMENU/CMenu.o"
+	@echo "... CMENU/CMenu.i"
+	@echo "... CMENU/CMenu.s"
+	@echo "... CMENU/CMenuCommand.o"
+	@echo "... CMENU/CMenuCommand.i"
+	@echo "... CMENU/CMenuCommand.s"
+	@echo "... CMENU/CMenuItem.o"
+	@echo "... CMENU/CMenuItem.i"
+	@echo "... CMENU/CMenuItem.s"
+	@echo "... CMENU/KNPmenu.o"
+	@echo "... CMENU/KNPmenu.i"
+	@echo "... CMENU/KNPmenu.s"
 	@echo "... Knapsack.o"
 	@echo "... Knapsack.i"
 	@echo "... Knapsack.s"

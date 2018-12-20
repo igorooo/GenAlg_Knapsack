@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/qivi/CLionProjects/ZAD_5_zmpo/CGeneticAlgorithm.cpp
+CGeneticAlgorithm.h
+/home/qivi/CLionProjects/ZAD_5_zmpo/CGeneticAlgorithm.h
+
 /home/qivi/CLionProjects/ZAD_5_zmpo/CGeneticAlgorithm.h
 cstdlib
 -
@@ -20,6 +24,10 @@ CIndividual.h
 Knapsack.h
 /home/qivi/CLionProjects/ZAD_5_zmpo/Knapsack.h
 
+/home/qivi/CLionProjects/ZAD_5_zmpo/CIndividual.cpp
+CIndividual.h
+/home/qivi/CLionProjects/ZAD_5_zmpo/CIndividual.h
+
 /home/qivi/CLionProjects/ZAD_5_zmpo/CIndividual.h
 cstdlib
 -
@@ -32,6 +40,10 @@ vector
 Knapsack.h
 /home/qivi/CLionProjects/ZAD_5_zmpo/Knapsack.h
 
+/home/qivi/CLionProjects/ZAD_5_zmpo/CKnapsackProblem.cpp
+CKnapsackProblem.h
+/home/qivi/CLionProjects/ZAD_5_zmpo/CKnapsackProblem.h
+
 /home/qivi/CLionProjects/ZAD_5_zmpo/CKnapsackProblem.h
 Knapsack.h
 /home/qivi/CLionProjects/ZAD_5_zmpo/Knapsack.h
@@ -41,6 +53,62 @@ ReadFile.h
 /home/qivi/CLionProjects/ZAD_5_zmpo/ReadFile.h
 cstdlib
 -
+CMENU/CCommand.h
+/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CCommand.h
+
+/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CCommand.h
+string
+-
+iostream
+-
+
+/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenu.cpp
+CMenu.h
+/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenu.h
+
+/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenu.h
+vector
+-
+string
+-
+cstdlib
+-
+CMenuItem.h
+/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenuItem.h
+CMenuCommand.h
+/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenuCommand.h
+
+/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenuCommand.h
+CCommand.h
+/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CCommand.h
+CMenuItem.h
+/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenuItem.h
+iostream
+-
+
+/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenuItem.h
+string
+-
+iostream
+-
+
+/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/KNPmenu.cpp
+KNPmenu.h
+/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/KNPmenu.h
+
+/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/KNPmenu.h
+vector
+-
+CMenu.h
+/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenu.h
+CCommand.h
+/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CCommand.h
+CMenuItem.h
+/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenuItem.h
+CMenuCommand.h
+/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenuCommand.h
+../CKnapsackProblem.h
+/home/qivi/CLionProjects/ZAD_5_zmpo/CKnapsackProblem.h
 
 /home/qivi/CLionProjects/ZAD_5_zmpo/Knapsack.h
 iostream
@@ -79,6 +147,10 @@ ReadFile.h
 /home/qivi/CLionProjects/ZAD_5_zmpo/ReadFile.h
 CKnapsackProblem.h
 /home/qivi/CLionProjects/ZAD_5_zmpo/CKnapsackProblem.h
+CMENU/CMenu.h
+/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenu.h
+CMENU/KNPmenu.h
+/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/KNPmenu.h
 fstream
 -
 

@@ -7,18 +7,24 @@
 #include "CGeneticAlgorithm.h"
 #include "ReadFile.h"
 #include "CKnapsackProblem.h"
+#include "CMENU/CMenu.h"
+#include "CMENU/KNPmenu.h"
 #include <fstream>
 
 // testing:   ../test2 30 100 0.8 0.1
 
 int main() {
 
-    CKnapsackProblem<bool> KNP;
+    KNPmenu KMENU;
+    KMENU.run();
+
+
+
+    /*CKnapsackProblem<double> KNP;
 
     KNP.configure();
-    KNP.start();
+    KNP.start(); */
 
-    //KNP.fit_of_gen(99,0);
 
 
     return 0;

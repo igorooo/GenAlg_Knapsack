@@ -15,6 +15,36 @@ CMakeFiles/ZAD_5_zmpo.dir/CKnapsackProblem.cpp.o
  /home/qivi/CLionProjects/ZAD_5_zmpo/CIndividual.h
  /home/qivi/CLionProjects/ZAD_5_zmpo/CKnapsackProblem.cpp
  /home/qivi/CLionProjects/ZAD_5_zmpo/CKnapsackProblem.h
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CCommand.h
+ /home/qivi/CLionProjects/ZAD_5_zmpo/Knapsack.h
+ /home/qivi/CLionProjects/ZAD_5_zmpo/ReadFile.h
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/CCommand.cpp.o
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CCommand.cpp
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CCommand.h
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/CMenu.cpp.o
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CCommand.h
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenu.cpp
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenu.h
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenuCommand.h
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenuItem.h
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/CMenuCommand.cpp.o
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CCommand.h
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenuCommand.cpp
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenuCommand.h
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenuItem.h
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/CMenuItem.cpp.o
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenuItem.cpp
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenuItem.h
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/KNPmenu.cpp.o
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CGeneticAlgorithm.h
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CIndividual.h
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CKnapsackProblem.h
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CCommand.h
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenu.h
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenuCommand.h
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenuItem.h
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/KNPmenu.cpp
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/KNPmenu.h
  /home/qivi/CLionProjects/ZAD_5_zmpo/Knapsack.h
  /home/qivi/CLionProjects/ZAD_5_zmpo/ReadFile.h
 CMakeFiles/ZAD_5_zmpo.dir/Knapsack.cpp.o
@@ -28,6 +58,11 @@ CMakeFiles/ZAD_5_zmpo.dir/main.cpp.o
  /home/qivi/CLionProjects/ZAD_5_zmpo/CGeneticAlgorithm.h
  /home/qivi/CLionProjects/ZAD_5_zmpo/CIndividual.h
  /home/qivi/CLionProjects/ZAD_5_zmpo/CKnapsackProblem.h
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CCommand.h
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenu.h
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenuCommand.h
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenuItem.h
+ /home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/KNPmenu.h
  /home/qivi/CLionProjects/ZAD_5_zmpo/Knapsack.h
  /home/qivi/CLionProjects/ZAD_5_zmpo/ReadFile.h
  /home/qivi/CLionProjects/ZAD_5_zmpo/main.cpp

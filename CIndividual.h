@@ -40,6 +40,7 @@ public:
     void set_cross_place(int CP1, int CP2);
     int max_multi(int POS);  // RETURN HOW MUCH ITEM A CAN KNAPSACK HOLD ( max_multi(POS of A) * weight of A = MAX_WEIGHT )
 
+    void v_copy(CIndividual &CLONE);
     CIndividual(CIndividual &CLONE);
     CIndividual( double CROSS_PROB, double MUT_PROB,Knapsack* KNAPSACK);
     CIndividual( double CROSS_PROB, double MUT_PROB,Knapsack* KNAPSACK, T* GENOTYPE);

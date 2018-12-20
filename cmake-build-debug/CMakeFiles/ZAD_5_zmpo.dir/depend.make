@@ -14,8 +14,38 @@ CMakeFiles/ZAD_5_zmpo.dir/CKnapsackProblem.cpp.o: ../CGeneticAlgorithm.h
 CMakeFiles/ZAD_5_zmpo.dir/CKnapsackProblem.cpp.o: ../CIndividual.h
 CMakeFiles/ZAD_5_zmpo.dir/CKnapsackProblem.cpp.o: ../CKnapsackProblem.cpp
 CMakeFiles/ZAD_5_zmpo.dir/CKnapsackProblem.cpp.o: ../CKnapsackProblem.h
+CMakeFiles/ZAD_5_zmpo.dir/CKnapsackProblem.cpp.o: ../CMENU/CCommand.h
 CMakeFiles/ZAD_5_zmpo.dir/CKnapsackProblem.cpp.o: ../Knapsack.h
 CMakeFiles/ZAD_5_zmpo.dir/CKnapsackProblem.cpp.o: ../ReadFile.h
+
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/CCommand.cpp.o: ../CMENU/CCommand.cpp
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/CCommand.cpp.o: ../CMENU/CCommand.h
+
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/CMenu.cpp.o: ../CMENU/CCommand.h
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/CMenu.cpp.o: ../CMENU/CMenu.cpp
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/CMenu.cpp.o: ../CMENU/CMenu.h
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/CMenu.cpp.o: ../CMENU/CMenuCommand.h
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/CMenu.cpp.o: ../CMENU/CMenuItem.h
+
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/CMenuCommand.cpp.o: ../CMENU/CCommand.h
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/CMenuCommand.cpp.o: ../CMENU/CMenuCommand.cpp
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/CMenuCommand.cpp.o: ../CMENU/CMenuCommand.h
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/CMenuCommand.cpp.o: ../CMENU/CMenuItem.h
+
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/CMenuItem.cpp.o: ../CMENU/CMenuItem.cpp
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/CMenuItem.cpp.o: ../CMENU/CMenuItem.h
+
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/KNPmenu.cpp.o: ../CGeneticAlgorithm.h
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/KNPmenu.cpp.o: ../CIndividual.h
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/KNPmenu.cpp.o: ../CKnapsackProblem.h
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/KNPmenu.cpp.o: ../CMENU/CCommand.h
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/KNPmenu.cpp.o: ../CMENU/CMenu.h
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/KNPmenu.cpp.o: ../CMENU/CMenuCommand.h
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/KNPmenu.cpp.o: ../CMENU/CMenuItem.h
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/KNPmenu.cpp.o: ../CMENU/KNPmenu.cpp
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/KNPmenu.cpp.o: ../CMENU/KNPmenu.h
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/KNPmenu.cpp.o: ../Knapsack.h
+CMakeFiles/ZAD_5_zmpo.dir/CMENU/KNPmenu.cpp.o: ../ReadFile.h
 
 CMakeFiles/ZAD_5_zmpo.dir/Knapsack.cpp.o: ../Knapsack.cpp
 CMakeFiles/ZAD_5_zmpo.dir/Knapsack.cpp.o: ../Knapsack.h
@@ -27,6 +57,11 @@ CMakeFiles/ZAD_5_zmpo.dir/ReadFile.cpp.o: ../ReadFile.h
 CMakeFiles/ZAD_5_zmpo.dir/main.cpp.o: ../CGeneticAlgorithm.h
 CMakeFiles/ZAD_5_zmpo.dir/main.cpp.o: ../CIndividual.h
 CMakeFiles/ZAD_5_zmpo.dir/main.cpp.o: ../CKnapsackProblem.h
+CMakeFiles/ZAD_5_zmpo.dir/main.cpp.o: ../CMENU/CCommand.h
+CMakeFiles/ZAD_5_zmpo.dir/main.cpp.o: ../CMENU/CMenu.h
+CMakeFiles/ZAD_5_zmpo.dir/main.cpp.o: ../CMENU/CMenuCommand.h
+CMakeFiles/ZAD_5_zmpo.dir/main.cpp.o: ../CMENU/CMenuItem.h
+CMakeFiles/ZAD_5_zmpo.dir/main.cpp.o: ../CMENU/KNPmenu.h
 CMakeFiles/ZAD_5_zmpo.dir/main.cpp.o: ../Knapsack.h
 CMakeFiles/ZAD_5_zmpo.dir/main.cpp.o: ../ReadFile.h
 CMakeFiles/ZAD_5_zmpo.dir/main.cpp.o: ../main.cpp

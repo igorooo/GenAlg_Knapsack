@@ -10,9 +10,10 @@
 #include "CGeneticAlgorithm.h"
 #include "ReadFile.h"
 #include <cstdlib>
+#include "CMENU/CCommand.h"
 
 template <class T>
-class CKnapsackProblem {
+class CKnapsackProblem : public CCommand{
 
 private:
     Knapsack* KNAPSACK;
@@ -23,7 +24,8 @@ public:
 
     void configure();
     void start();
-    void fit_of_gen(int X, int Y);
+    void run_command();
+   // void fit_of_gen(int X, int Y);
     CKnapsackProblem();
     ~CKnapsackProblem();
 

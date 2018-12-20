@@ -102,6 +102,36 @@
 		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/CKnapsackProblem.h">
 			<Option target="ZAD_5_zmpo"/>
 		</Unit>
+		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CCommand.cpp">
+			<Option target="ZAD_5_zmpo"/>
+		</Unit>
+		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CCommand.h">
+			<Option target="ZAD_5_zmpo"/>
+		</Unit>
+		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenu.cpp">
+			<Option target="ZAD_5_zmpo"/>
+		</Unit>
+		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenu.h">
+			<Option target="ZAD_5_zmpo"/>
+		</Unit>
+		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenuCommand.cpp">
+			<Option target="ZAD_5_zmpo"/>
+		</Unit>
+		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenuCommand.h">
+			<Option target="ZAD_5_zmpo"/>
+		</Unit>
+		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenuItem.cpp">
+			<Option target="ZAD_5_zmpo"/>
+		</Unit>
+		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/CMenuItem.h">
+			<Option target="ZAD_5_zmpo"/>
+		</Unit>
+		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/KNPmenu.cpp">
+			<Option target="ZAD_5_zmpo"/>
+		</Unit>
+		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/CMENU/KNPmenu.h">
+			<Option target="ZAD_5_zmpo"/>
+		</Unit>
 		<Unit filename="/home/qivi/CLionProjects/ZAD_5_zmpo/Knapsack.cpp">
 			<Option target="ZAD_5_zmpo"/>
 		</Unit>
