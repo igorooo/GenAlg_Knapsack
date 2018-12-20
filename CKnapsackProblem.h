@@ -11,11 +11,12 @@
 #include "ReadFile.h"
 #include <cstdlib>
 
+template <class T>
 class CKnapsackProblem {
 
 private:
     Knapsack* KNAPSACK;
-    CGeneticAlgorithm* CGA;
+    CGeneticAlgorithm<T>* CGA;
     bool RDY;
 
 public:

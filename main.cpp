@@ -13,7 +13,7 @@
 
 int main() {
 
-    CKnapsackProblem KNP;
+    CKnapsackProblem<bool> KNP;
 
     KNP.configure();
     KNP.start();

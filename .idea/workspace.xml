@@ -11,7 +11,22 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc7ec352-7ba8-446a-9610-b5eaf13dbc51" name="Default Changelist" comment="" />
+    <list default="true" id="fc7ec352-7ba8-446a-9610-b5eaf13dbc51" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CGeneticAlgorithm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CGeneticAlgorithm.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CGeneticAlgorithm.h" beforeDir="false" afterPath="$PROJECT_DIR$/CGeneticAlgorithm.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CIndividual.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CIndividual.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CIndividual.h" beforeDir="false" afterPath="$PROJECT_DIR$/CIndividual.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CKnapsackProblem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CKnapsackProblem.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CKnapsackProblem.h" beforeDir="false" afterPath="$PROJECT_DIR$/CKnapsackProblem.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ZAD_5_zmpo.dir/CGeneticAlgorithm.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ZAD_5_zmpo.dir/CGeneticAlgorithm.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ZAD_5_zmpo.dir/CIndividual.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ZAD_5_zmpo.dir/CIndividual.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ZAD_5_zmpo.dir/CKnapsackProblem.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ZAD_5_zmpo.dir/CKnapsackProblem.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ZAD_5_zmpo.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ZAD_5_zmpo.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ZAD_5_zmpo.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ZAD_5_zmpo.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ZAD_5_zmpo" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ZAD_5_zmpo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,32 +40,45 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="1" />
+          <entry key="ZAD_5_zmpo (disassembly)" value="5" />
+          <entry key="cpp" value="11" />
+          <entry key="h" value="8" />
+          <entry key="test" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="1" />
+          <entry key="Disassembly" value="5" />
+          <entry key="ObjectiveC" value="19" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="1187" />
+          <entry key="h" value="381" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="ObjectiveC" value="1568" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-90">
+            <state relative-caret-position="165">
+              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -58,7 +86,153 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ReadFile.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CIndividual.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+              <folding>
+                <element signature="e#106#124#0" expanded="true" />
+                <element signature="e#257#266#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CIndividual.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="139" selection-start-line="139" selection-end-line="139" />
+              <folding>
+                <element signature="e#75#84#0" expanded="true" />
+                <element signature="e#598#607#0" expanded="true" />
+                <element signature="e#659#668#0" expanded="true" />
+                <element signature="e#1985#1994#0" expanded="true" />
+                <element signature="e#2394#2403#0" expanded="true" />
+                <element signature="e#2756#2765#0" expanded="true" />
+                <element signature="e#3195#3204#0" expanded="true" />
+                <element signature="e#3328#3337#0" expanded="true" />
+                <element signature="e#4113#4115#0" expanded="true" />
+                <element signature="e#4340#4342#0" expanded="true" />
+                <element signature="e#4562#4564#0" expanded="true" />
+                <element signature="e#3252#3261#0" expanded="true" />
+                <element signature="e#4151#4160#0" expanded="true" />
+                <element signature="e#3350#3352#0" expanded="true" />
+                <element signature="e#3509#3511#0" expanded="true" />
+                <element signature="e#3663#3665#0" expanded="true" />
+                <element signature="e#3507#3516#0" expanded="true" />
+                <element signature="e#5145#5154#0" expanded="true" />
+                <element signature="e#5391#5400#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CKnapsackProblem.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="652">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
+              <folding>
+                <element signature="e#79#88#0" expanded="true" />
+                <element signature="e#1091#1100#0" expanded="true" />
+                <element signature="e#1250#1259#0" expanded="true" />
+                <element signature="e#1335#1344#0" expanded="true" />
+                <element signature="e#1416#1425#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CGeneticAlgorithm.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+              <folding>
+                <element signature="e#119#137#0" expanded="true" />
+                <element signature="e#358#367#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CGeneticAlgorithm.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+              <folding>
+                <element signature="e#79#88#0" expanded="true" />
+                <element signature="e#400#409#0" expanded="true" />
+                <element signature="e#1420#1429#0" expanded="true" />
+                <element signature="e#1759#1768#0" expanded="true" />
+                <element signature="e#2097#2106#0" expanded="true" />
+                <element signature="e#2478#2487#0" expanded="true" />
+                <element signature="e#3844#3853#0" expanded="true" />
+                <element signature="e#4431#4440#0" expanded="true" />
+                <element signature="e#4791#4800#0" expanded="true" />
+                <element signature="e#5113#5122#0" expanded="true" />
+                <element signature="e#5344#5353#0" expanded="true" />
+                <element signature="e#5590#5599#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mock:///ZAD_5_zmpo (disassembly)">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/c++/8.2.1/bits/stl_vector.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="959" selection-start-line="959" selection-end-line="959" />
+              <folding>
+                <element signature="e#2390#2431#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CIndividual.cpp" />
+        <option value="$PROJECT_DIR$/CIndividual.h" />
+        <option value="$PROJECT_DIR$/CKnapsackProblem.h" />
+        <option value="$PROJECT_DIR$/CKnapsackProblem.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/CGeneticAlgorithm.cpp" />
+        <option value="$PROJECT_DIR$/CGeneticAlgorithm.h" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -66,17 +240,19 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-116" />
-    <option name="y" value="69" />
-    <option name="width" value="1914" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1" />
+    <option name="y" value="49" />
+    <option name="width" value="1922" />
+    <option name="height" value="996" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -88,7 +264,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,35 +310,46 @@
       <option name="presentableId" value="Default" />
       <updated>1545235190562</updated>
       <workItem from="1545235193022" duration="632000" />
+      <workItem from="1545264248311" duration="17909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="632000" />
+    <option name="totallyTimeSpent" value="18541000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="49" width="1922" height="996" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" weight="0.3295063" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="CMake" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295063" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32873562" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32988507" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32873562" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32988507" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,11 +362,142 @@
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Knapsack.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Knapsack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CKnapsackProblem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="e#117#138#0" expanded="true" />
+            <element signature="e#221#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CIndividual.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+          <folding>
+            <element signature="e#106#124#0" expanded="true" />
+            <element signature="e#257#266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CIndividual.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
+          <folding>
+            <element signature="e#75#84#0" expanded="true" />
+            <element signature="e#598#607#0" expanded="true" />
+            <element signature="e#659#668#0" expanded="true" />
+            <element signature="e#1985#1994#0" expanded="true" />
+            <element signature="e#2394#2403#0" expanded="true" />
+            <element signature="e#2756#2765#0" expanded="true" />
+            <element signature="e#3195#3204#0" expanded="true" />
+            <element signature="e#3328#3337#0" expanded="true" />
+            <element signature="e#4113#4115#0" expanded="true" />
+            <element signature="e#4340#4342#0" expanded="true" />
+            <element signature="e#4562#4564#0" expanded="true" />
+            <element signature="e#3252#3261#0" expanded="true" />
+            <element signature="e#4151#4160#0" expanded="true" />
+            <element signature="e#3350#3352#0" expanded="true" />
+            <element signature="e#3509#3511#0" expanded="true" />
+            <element signature="e#3663#3665#0" expanded="true" />
+            <element signature="e#3507#3516#0" expanded="true" />
+            <element signature="e#5145#5154#0" expanded="true" />
+            <element signature="e#5391#5400#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CKnapsackProblem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#79#88#0" expanded="true" />
+            <element signature="e#1091#1100#0" expanded="true" />
+            <element signature="e#1250#1259#0" expanded="true" />
+            <element signature="e#1335#1344#0" expanded="true" />
+            <element signature="e#1416#1425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadFile.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
+        <state relative-caret-position="165">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/8.2.1/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="959" selection-start-line="959" selection-end-line="959" />
+          <folding>
+            <element signature="e#2390#2431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGeneticAlgorithm.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <folding>
+            <element signature="e#119#137#0" expanded="true" />
+            <element signature="e#358#367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CGeneticAlgorithm.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#79#88#0" expanded="true" />
+            <element signature="e#400#409#0" expanded="true" />
+            <element signature="e#1420#1429#0" expanded="true" />
+            <element signature="e#1759#1768#0" expanded="true" />
+            <element signature="e#2097#2106#0" expanded="true" />
+            <element signature="e#2478#2487#0" expanded="true" />
+            <element signature="e#3844#3853#0" expanded="true" />
+            <element signature="e#4431#4440#0" expanded="true" />
+            <element signature="e#4791#4800#0" expanded="true" />
+            <element signature="e#5113#5122#0" expanded="true" />
+            <element signature="e#5344#5353#0" expanded="true" />
+            <element signature="e#5590#5599#0" expanded="true" />
           </folding>
         </state>
       </provider>

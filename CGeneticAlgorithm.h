@@ -9,23 +9,27 @@
 #include <cstdlib>
 #include <iostream>
 #include <vector>
+#include <ctime>
 #include "CIndividual.h"
 #include "Knapsack.h"
 
 #define WHOLE_GENS(X,Y) WHOLE_GENS.at(X).at(Y)
 #define WHOLE__GENS(X) WHOLE_GENS.at(X)
 
-typedef vector<CIndividual*> VCIND;
 
+template <class T>
 class CGeneticAlgorithm {
+
+    typedef vector<CIndividual<T>*> VCIND;
 
 private:
     int POP_SIZE; // only even numbers
-    int END_GENERATION;  //amount of iterations
+    int END_GENERATION,END_TIME;  //amount of iterations
     double CROSS_PROBA;  //PROBABILITY
     double MUTATION_PROBA; //PROBABILITY
 
-    vector< vector<CIndividual*> > WHOLE_GENS;
+    vector< vector<CIndividual<T>*> > WHOLE_GENS;
+
 
     Knapsack* KNAPSACK;
     bool DONE;
@@ -33,9 +37,9 @@ private:
 public:
     void cr_fst_gen();  //create first generation
     void next_gen(int LAST_GEN);  //create next gen
-    CIndividual* find_cur_leader(int POS); //current generation leader
-    CIndividual* wh_gen_leader(); //whole generations leader
-    CIndividual* parent(int POS);  // random parent
+    CIndividual<T>* find_cur_leader(int POS); //current generation leader
+    CIndividual<T>* wh_gen_leader(); //whole generations leader
+    CIndividual<T>* parent(int POS);  // random parent
     void fit_of_gen(int X, int Y);
 
 

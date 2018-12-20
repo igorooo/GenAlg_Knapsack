@@ -4,7 +4,8 @@
 
 #include "CKnapsackProblem.h"
 
-void CKnapsackProblem::configure() {
+template <class T>
+void CKnapsackProblem<T>::configure() {
 
     ReadFile RF;
     int POP_S,N_ITER;
@@ -48,12 +49,13 @@ void CKnapsackProblem::configure() {
         cin>>MUT_PROB;
     }
 
-    this->CGA = new CGeneticAlgorithm(POP_S,N_ITER,CROSS_PROB,MUT_PROB,this->KNAPSACK);
+    this->CGA = new CGeneticAlgorithm<T>(POP_S,N_ITER,CROSS_PROB,MUT_PROB,this->KNAPSACK);
     this->RDY = true;
 
 }
 
-void CKnapsackProblem::start() {
+template <class T>
+void CKnapsackProblem<T>::start() {
 
     if(this->RDY){
         this->CGA->run_ga();
@@ -65,18 +67,21 @@ void CKnapsackProblem::start() {
 
 }
 
-CKnapsackProblem::CKnapsackProblem() {
+template <class T>
+CKnapsackProblem<T>::CKnapsackProblem() {
     srand(time(0));
     this->RDY = false;
 }
 
-CKnapsackProblem::~CKnapsackProblem() {
+template <class T>
+CKnapsackProblem<T>::~CKnapsackProblem() {
 
     delete KNAPSACK;
     delete CGA;
 }
 
-void CKnapsackProblem::fit_of_gen(int X, int Y) {
+template <class T>
+void CKnapsackProblem<T>::fit_of_gen(int X, int Y) {
 
     if(this->RDY){
         this->CGA->fit_of_gen(X,Y);
@@ -86,3 +91,8 @@ void CKnapsackProblem::fit_of_gen(int X, int Y) {
     }
 
 }
+
+
+template class CKnapsackProblem<bool>;
+template class CKnapsackProblem<int>;
+template class CKnapsackProblem<double>;
